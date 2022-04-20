@@ -4,8 +4,6 @@ const ex3 = 'The salad costs $9.99';
 const ex4 = 'Contact customer support on 0800 300 500';
 const ex5 = 'You can contact me on Twitter @abc or abc@gmail.com';
 
-
-
 console.log(ex1.match(/\b\w{3}\b/g));
 console.log(ex2.replaceAll(/\d+/g, ""));
 console.log(ex3.match(/(?<=\$)\d+\.\d+/g));
